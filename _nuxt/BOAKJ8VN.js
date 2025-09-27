@@ -1,1 +1,0 @@
-import{d as n}from"./CNPHnVHH.js";import{e as o,c as t,o as r,n as c,u as l,i}from"#entry";const f=o({__name:"CardTitle",props:{class:{}},setup(s){const e=s;return(a,m)=>(r(),t("h3",{class:c(l(n)("font-semibold leading-none tracking-tight",e.class))},[i(a.$slots,"default")],2))}});export{f as _};
