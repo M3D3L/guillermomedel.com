@@ -1,0 +1,1 @@
+import{aF as r}from"#entry";const i=r("debug",{state:()=>({queries:[]}),actions:{addQuery(e,s){this.queries.push({query:e,result:s})},removeQueryAt(e){e>=0&&e<this.queries.length&&this.queries.splice(e,1)},clearQueries(){this.queries=[]}},persist:!0});export{i as useDebugStore};
