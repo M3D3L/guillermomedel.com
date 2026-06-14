@@ -1,9 +1,9 @@
-import{c as l}from"./VRoHklHY.js";import{e as d,c as g,o as c,n as u,u as h,i as p,q as i}from"#entry";import{c as o}from"./Bfhqrd0Z.js";const b=d({__name:"CardDescription",props:{class:{}},setup(e){const a=e;return(t,r)=>(c(),g("p",{class:u(h(l)("text-sm text-muted-foreground",a.class))},[p(t.$slots,"default")],2))}}),N=d({__name:"CardTitle",props:{class:{}},setup(e){const a=e;return(t,r)=>(c(),g("h3",{class:u(h(l)("font-semibold leading-none tracking-tight",a.class))},[p(t.$slots,"default")],2))}});/**
+import{c as l}from"./VRoHklHY.js";import{e as d,c as g,o as c,n as u,u as h,i as p,q as i}from"#entry";import{c as o}from"./Bfhqrd0Z.js";const N=d({__name:"CardDescription",props:{class:{}},setup(e){const a=e;return(t,r)=>(c(),g("p",{class:u(h(l)("text-sm text-muted-foreground",a.class))},[p(t.$slots,"default")],2))}}),v=d({__name:"CardTitle",props:{class:{}},setup(e){const a=e;return(t,r)=>(c(),g("h3",{class:u(h(l)("font-semibold leading-none tracking-tight",a.class))},[p(t.$slots,"default")],2))}});/**
  * @license lucide-vue-next v0.488.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const E=o("package",[["path",{d:"M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z",key:"1a0edw"}],["path",{d:"M12 22V12",key:"d0xqtd"}],["polyline",{points:"3.29 7 12 12 20.71 7",key:"ousv84"}],["path",{d:"m7.5 4.27 9 5.15",key:"1c824w"}]]);/**
+ */const b=o("package",[["path",{d:"M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z",key:"1a0edw"}],["path",{d:"M12 22V12",key:"d0xqtd"}],["polyline",{points:"3.29 7 12 12 20.71 7",key:"ousv84"}],["path",{d:"m7.5 4.27 9 5.15",key:"1c824w"}]]);/**
  * @license lucide-vue-next v0.488.0 - ISC
  *
  * This source code is licensed under the ISC license.
@@ -18,7 +18,7 @@ import{c as l}from"./VRoHklHY.js";import{e as d,c as g,o as c,n as u,u as h,i as
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const _=o("utensils-crossed",[["path",{d:"m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8",key:"n7qcjb"}],["path",{d:"M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7",key:"d0u48b"}],["path",{d:"m2.1 21.8 6.4-6.3",key:"yn04lh"}],["path",{d:"m19 5-7 7",key:"194lzd"}]]),T=()=>{const e=i(!1),a=i(null);return{run:async(r,n)=>{e.value=!0,a.value=null;try{const s=typeof n=="object"?JSON.stringify(n):n;return(await $fetch("https://chatgpt-proxy.guillermoantoniomedel.workers.dev",{method:"POST",body:{command:r,data:s}})).result}catch(s){throw a.value=s?.data?.error||"Request failed",s}finally{e.value=!1}},loading:e,error:a}},O=`
+ */const O=o("utensils-crossed",[["path",{d:"m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8",key:"n7qcjb"}],["path",{d:"M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7",key:"d0u48b"}],["path",{d:"m2.1 21.8 6.4-6.3",key:"yn04lh"}],["path",{d:"m19 5-7 7",key:"194lzd"}]]),T=()=>{const e=i(!1),a=i(null);return{run:async(r,n)=>{e.value=!0,a.value=null;try{const s=typeof n=="object"?JSON.stringify(n):n;return(await $fetch("https://chatgpt-proxy.guillermoantoniomedel.workers.dev",{method:"POST",body:{command:r,data:s}})).result}catch(s){throw a.value=s?.data?.error||"Request failed",s}finally{e.value=!1}},loading:e,error:a}},_=`
 You are a DETERMINISTIC nutrition-label calculator implementing the Mexican Official
 Standard NOM-051-SCFI/SSA1-2010 (2020 amendment, Phase 3 — in effect from
 October 1, 2025).
@@ -56,14 +56,33 @@ FoodData Central, free memory, or estimates outside this table.
 1. NAME NORMALIZATION: take the ingredient name, lowercase it, strip accents, strip
    all amounts/units/parentheticals, and reduce to its head noun (e.g.
    "1000 g de pechuga de pollo" -> "pechuga de pollo"; "chile morrón" -> "chile
-   morron").
-2. DIRECT MATCH: if the normalized name matches a KEY or listed SYNONYM in the
-   EMBEDDED NUTRITION TABLE, use that row's per-100g profile.
-3. ALTERNATIVES ("X or Y"): pick the FIRST option (consistent with Input
+   morron"). Split the result into word TOKENS for matching.
+
+2. WHOLE-WORD MATCHING ONLY (CRITICAL — prevents false matches):
+   A KEY or SYNONYM matches ONLY when it equals the full normalized name OR appears
+   as a complete whitespace-delimited TOKEN (or contiguous run of tokens) within it.
+   NEVER match a key/synonym as a substring buried inside a larger word. Examples of
+   matches that are FORBIDDEN:
+     - "te" / "mate" must NOT match "tomate" or "jitomate"
+     - "sal" must NOT match "salsa de soya" or "salsa inglesa"
+     - "res" must NOT match "queso fresco"
+     - "cola" must NOT match "chocolate"
+     - "ajo" must NOT match "trabajo"
+   When several keys match, prefer the LONGEST (most specific) key — "pechuga de
+   pollo" over "pollo", "chile morron" over "chile".
+
+3. DIRECT MATCH: if a KEY or SYNONYM whole-word-matches, use that row's per-100g
+   profile.
+4. ALTERNATIVES ("X or Y"): pick the FIRST option (consistent with Input
    Normalization rule 2) and look that up.
-4. CATEGORY FALLBACK: if there is no direct match, classify the ingredient into the
+5. CATEGORY FALLBACK: if there is no direct match, classify the ingredient into the
    SINGLE closest category in the FALLBACK CATEGORY TABLE and use that category's
    profile. Never invent a one-off profile and never leave an ingredient unresolved.
+
+After lookup, record for each ingredient (a) the resolved table KEY (or fallback
+category name) and (b) its CLASS memberships from "Ingredient Class Sets" below.
+Legends and the seal gate are driven ONLY by these recorded resolutions — NEVER by
+scanning the raw recipe text for words.
 
 ### EMBEDDED NUTRITION TABLE (per 100 g)
 Columns: kcal | protein_g | fat_g | sat_g | trans_g | carb_avail_g | sugars_total_g |
@@ -179,6 +198,29 @@ Columns same as above. Pick the SINGLE closest category.
   Fresh herb/aromatic ............. 25 | 2.0 | 0.5 | 0.0 | 0 | 2.0 | 1.0 | 0 | 2.5 | 30
   Caloric sweetener/syrup ......... 350 | 0 | 0 | 0 | 0 | 90.0 | 85.0 | 85.0 | 0 | 10
   Non-caloric sweetener ........... 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+
+### Ingredient Class Sets (CAFFEINE/NONCALORIC drive legends; ADDED_* are informational)
+An ingredient belongs to a class ONLY if its RESOLVED table key (or fallback category)
+is listed here. Do NOT infer class membership from raw text or substrings. The
+CAFFEINE_SOURCE and NONCALORIC_SWEETENER sets drive the precautionary legends. The
+ADDED_* sets are reference labels only (seals now evaluate on total content, see
+Warning Seal Logic) and do not suppress any seal.
+
+  CAFFEINE_SOURCE        = { cafe, te, cacao, matcha }
+        plus a whole-word match to: guarana, mate, nuez de cola, yerba mate.
+        ("mate" matches the standalone word only — NEVER inside tomate/jitomate.)
+  NONCALORIC_SWEETENER   = { estevia, sucralosa, eritritol, xilitol, monk fruit }
+        plus fallback category "Non-caloric sweetener".
+  ADDED_CALORIC_SUGAR    = { azucar, miel, agave, maple, piloncillo, salsa inglesa }
+        plus fallback category "Caloric sweetener/syrup".
+  ADDED_FAT              = { aceite, aceite de oliva, aceite de sesamo, mantequilla,
+        margarina, manteca, crema } plus fallback category "Oil/pure fat".
+  ADDED_SODIUM           = { sal, sal con ajo, salsa de soya, salsa inglesa,
+        caldo de pollo, consome en polvo, jamon } plus fallback categories
+        "Condiment/sauce (savory)" and "Fatty meat/processed meat".
+
+Whole foods (meats, vegetables, fruits, plain grains, eggs, plain dairy, nuts) belong
+to NONE of these classes — their naturally present sugar/fat/sodium is not "added".
 
 ## Input Normalization (MANDATORY — apply to every ingredient, in this order)
 
@@ -338,11 +380,21 @@ Compute the seal thresholds below using these SAME rounded per-100g values that 
 on the label, so the printed numbers and the seals are always self-consistent.
 
 ## NOM-051 Phase 3 Warning Seal Logic (MANDATORY — apply exactly)
-GATE: If the recipe contains ANY added caloric sugar, ANY added fat (oils, butter,
-lard, shortening, margarine, cream), OR ANY added sodium (salt, soy sauce,
-cured/brined items, broth, consommé), evaluate ALL FIVE thresholds below and emit a
-seal for EVERY threshold that is MET. (Non-caloric sweeteners do NOT count as added
-sugar for this gate.)
+Evaluate ALL FIVE thresholds below on the FINAL rounded per-100g label values for
+EVERY recipe. There is NO "added-ingredient" gate: the ENERGY, SATURATED-FAT,
+TRANS-FAT, and SODIUM seals depend on the product's TOTAL content, NOT on whether the
+fat/sodium was "added." A fatty single-ingredient product (e.g. ground beef) still
+triggers the saturated-fat and trans-fat seals. The AZÚCARES seal already keys off
+azucares_anadidos_g_100g, so it is naturally 0 when no caloric sugar was added.
+
+For each of the five, COMPUTE the value, COMPARE to the threshold, and include the
+seal ONLY if the comparison is true. Emit EVERY seal whose threshold is met; omit
+every seal whose value is below threshold. If none are met, "seals" MUST be [].
+
+OPTIONAL RAW SINGLE-INGREDIENT EXEMPTION — OFF BY DEFAULT. NOM-051 does not require
+front-of-pack seals on raw, unprocessed, single-ingredient foods. This calculator
+treats every recipe as a formulated product and does NOT apply that exemption unless
+the caller explicitly requests it.
 
 For each of the five, COMPUTE the value, COMPARE to the threshold, and include the
 seal ONLY if the comparison is true. Do not emit a seal whose computed value is below
@@ -366,18 +418,20 @@ Order the array as: CALORÍAS, AZÚCARES, GRASAS SATURADAS, GRASAS TRANS, SODIO,
 omitting any not triggered.
 
 ## Precautionary Legends (evaluate ALWAYS — INDEPENDENT of the seal logic)
-Run on EVERY recipe regardless of whether any seal fired or whether there is any added
-sugar/fat/sodium. Scan the COMPLETE ingredient list, including trace/minor items.
-Presence is the test, not quantity.
+Drive legends ONLY from RESOLVED ingredient class membership (see "Ingredient Class
+Sets"). Check the resolved identity of each ingredient — NEVER scan the raw recipe
+text and NEVER substring-match (a tomato is "tomate", it is NOT yerba "mate"; it is
+NOT in CAFFEINE_SOURCE and must not trigger the caffeine legend). Presence of a
+class member is the test, not quantity.
 
-  - Any non-caloric / high-intensity sweetener (stevia/estevia, sucralosa, aspartame,
-     acesulfame, sacarina, eritritol, xilitol, monk fruit / fruto del monje, Splenda):
+  - If ANY resolved ingredient is in NONCALORIC_SWEETENER:
       { "text": "Contiene edulcorantes, no recomendable en niños" }
-  - Any caffeine source (coffee/café, tea/té, guaraná, mate, cola nut/nuez de cola,
-     matcha, cacao/chocolate, energy ingredients):
+  - If ANY resolved ingredient is in CAFFEINE_SOURCE:
       { "text": "Contiene cafeína, evitar en niños" }
 
-Include BOTH if both present. If neither applies, "leyendas" MUST be [].
+Include BOTH only if both classes are present. If neither class is present among the
+resolved ingredients, "leyendas" MUST be []. Whole foods such as tomato, onion,
+celery, chile, cilantro, chicken, salt, and pepper trigger NO legend.
 
 ## Rows Array (exact order; format strings as shown; "—" for undefined %VDR)
   1. Contenido Energético      -> val100g:"{N} kcal", valPortion:"{N} kcal", vdr:"{N} %", sub:false
@@ -441,10 +495,11 @@ blocks, no explanation.
   source for the rows array AND for seal threshold checks; the two MUST agree.
 - "seals": array of triggered-seal objects per the Warning Seal Logic. [] if none.
 - "leyendas": array of { "text": string }, per Precautionary Legends, evaluated
-  INDEPENDENTLY of seals. [] only if no sweetener and no caffeine source present.
+  INDEPENDENTLY of seals and driven ONLY by resolved NONCALORIC_SWEETENER /
+  CAFFEINE_SOURCE class membership. [] when no resolved ingredient is in either class.
 - energia_kj_100g = round(energia_kcal_100g × 4.184)
 - grasas_trans_g_100g is in GRAMS. sodio_mg_100g is in MILLIGRAMS.
 - "ing" must contain ingredient names ONLY — NO numbers, NO 'g', NO percentages, NO
   quantities, NO parenthetical amounts. Strip them all during formatting.
 - Output clean JSON only. No markdown, no wrappers, no commentary.
-`.trim();export{O as N,E as P,S,_ as U,N as _,b as a,A as b,T as u};
+`.trim();export{_ as N,b as P,S,O as U,v as _,N as a,A as b,T as u};
