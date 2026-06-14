@@ -1,24 +1,19 @@
-import{c as l}from"./VRoHklHY.js";import{e as d,c as g,o as c,n as u,u as h,i as p,q as i}from"#entry";import{c as o}from"./Bfhqrd0Z.js";const N=d({__name:"CardDescription",props:{class:{}},setup(e){const a=e;return(t,r)=>(c(),g("p",{class:u(h(l)("text-sm text-muted-foreground",a.class))},[p(t.$slots,"default")],2))}}),v=d({__name:"CardTitle",props:{class:{}},setup(e){const a=e;return(t,r)=>(c(),g("h3",{class:u(h(l)("font-semibold leading-none tracking-tight",a.class))},[p(t.$slots,"default")],2))}});/**
+import{c as l}from"./VRoHklHY.js";import{e as d,c as g,o as c,n as u,u as h,i as p,q as i}from"#entry";import{c as n}from"./Bfhqrd0Z.js";const N=d({__name:"CardDescription",props:{class:{}},setup(e){const a=e;return(t,o)=>(c(),g("p",{class:u(h(l)("text-sm text-muted-foreground",a.class))},[p(t.$slots,"default")],2))}}),v=d({__name:"CardTitle",props:{class:{}},setup(e){const a=e;return(t,o)=>(c(),g("h3",{class:u(h(l)("font-semibold leading-none tracking-tight",a.class))},[p(t.$slots,"default")],2))}});/**
  * @license lucide-vue-next v0.488.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const b=o("package",[["path",{d:"M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z",key:"1a0edw"}],["path",{d:"M12 22V12",key:"d0xqtd"}],["polyline",{points:"3.29 7 12 12 20.71 7",key:"ousv84"}],["path",{d:"m7.5 4.27 9 5.15",key:"1c824w"}]]);/**
+ */const b=n("package",[["path",{d:"M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z",key:"1a0edw"}],["path",{d:"M12 22V12",key:"d0xqtd"}],["polyline",{points:"3.29 7 12 12 20.71 7",key:"ousv84"}],["path",{d:"m7.5 4.27 9 5.15",key:"1c824w"}]]);/**
  * @license lucide-vue-next v0.488.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const A=o("scale",[["path",{d:"m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z",key:"7g6ntu"}],["path",{d:"m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z",key:"ijws7r"}],["path",{d:"M7 21h10",key:"1b0cd5"}],["path",{d:"M12 3v18",key:"108xh3"}],["path",{d:"M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2",key:"3gwbw2"}]]);/**
+ */const A=n("scale",[["path",{d:"m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z",key:"7g6ntu"}],["path",{d:"m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z",key:"ijws7r"}],["path",{d:"M7 21h10",key:"1b0cd5"}],["path",{d:"M12 3v18",key:"108xh3"}],["path",{d:"M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2",key:"3gwbw2"}]]);/**
  * @license lucide-vue-next v0.488.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const S=o("sparkles",[["path",{d:"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z",key:"4pj2yx"}],["path",{d:"M20 3v4",key:"1olli1"}],["path",{d:"M22 5h-4",key:"1gvqau"}],["path",{d:"M4 17v2",key:"vumght"}],["path",{d:"M5 18H3",key:"zchphs"}]]);/**
- * @license lucide-vue-next v0.488.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const O=o("utensils-crossed",[["path",{d:"m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8",key:"n7qcjb"}],["path",{d:"M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7",key:"d0u48b"}],["path",{d:"m2.1 21.8 6.4-6.3",key:"yn04lh"}],["path",{d:"m19 5-7 7",key:"194lzd"}]]),T=()=>{const e=i(!1),a=i(null);return{run:async(r,n)=>{e.value=!0,a.value=null;try{const s=typeof n=="object"?JSON.stringify(n):n;return(await $fetch("https://chatgpt-proxy.guillermoantoniomedel.workers.dev",{method:"POST",body:{command:r,data:s}})).result}catch(s){throw a.value=s?.data?.error||"Request failed",s}finally{e.value=!1}},loading:e,error:a}},_=`
+ */const S=n("sparkles",[["path",{d:"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z",key:"4pj2yx"}],["path",{d:"M20 3v4",key:"1olli1"}],["path",{d:"M22 5h-4",key:"1gvqau"}],["path",{d:"M4 17v2",key:"vumght"}],["path",{d:"M5 18H3",key:"zchphs"}]]),O=()=>{const e=i(!1),a=i(null);return{run:async(o,r)=>{e.value=!0,a.value=null;try{const s=typeof r=="object"?JSON.stringify(r):r;return(await $fetch("https://chatgpt-proxy.guillermoantoniomedel.workers.dev",{method:"POST",body:{command:o,data:s}})).result}catch(s){throw a.value=s?.data?.error||"Request failed",s}finally{e.value=!1}},loading:e,error:a}},T=`
 You are a DETERMINISTIC nutrition-label calculator implementing the Mexican Official
 Standard NOM-051-SCFI/SSA1-2010 (2020 amendment, Phase 3 — in effect from
 October 1, 2025).
@@ -502,4 +497,4 @@ blocks, no explanation.
 - "ing" must contain ingredient names ONLY — NO numbers, NO 'g', NO percentages, NO
   quantities, NO parenthetical amounts. Strip them all during formatting.
 - Output clean JSON only. No markdown, no wrappers, no commentary.
-`.trim();export{_ as N,b as P,S,O as U,v as _,N as a,A as b,T as u};
+`.trim();export{T as N,b as P,S,v as _,N as a,A as b,O as u};
