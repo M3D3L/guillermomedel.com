@@ -1,0 +1,1 @@
+import{c as o}from"./p2ade_5I.js";import{e as r,c,o as n,A as l,s as t,u as p}from"#entry";const i=r({__name:"CardHeader",props:{class:{}},setup(s){const e=s;return(a,m)=>(n(),c("div",{class:t(p(o)("flex flex-col gap-y-1.5 p-6",e.class))},[l(a.$slots,"default")],2))}});export{i as _};
