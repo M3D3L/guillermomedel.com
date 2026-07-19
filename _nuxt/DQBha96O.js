@@ -1,0 +1,1 @@
+import{c as a}from"./D7aKdNpF.js";import{e as o,c as t,o as c,s as n,n as l,u as p}from"#entry";const i=o({__name:"Card",props:{class:{},styles:{default:"card-styles bg-card-90 hover:bg-card-95 hover:border-primary-40"}},setup(e){const s=e;return(r,d)=>(c(),t("div",{class:l(p(a)(s.styles,s.class))},[n(r.$slots,"default")],2))}});export{i as _};
