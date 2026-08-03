@@ -1,0 +1,1 @@
+import{b as n}from"./BrpaUASp.js";import{r as m,g as r}from"#entry";function o(){const e=m(),t=r(()=>["#text","#comment"].includes(e.value?.$el.nodeName)?e.value?.$el.nextElementSibling:n(e));return{primitiveElement:e,currentElement:t}}export{o as u};
