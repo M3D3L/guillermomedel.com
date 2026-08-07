@@ -1,0 +1,1 @@
+import{c as i}from"./BXwCgJs3.js";import{aj as r}from"#entry";const[n]=i("ConfigProvider");function u(s,o="reka"){let e;const t=n({useId:void 0});return t.useId?e=t.useId():e=r?.(),o?`${o}-${e}`:e}export{n as i,u};
