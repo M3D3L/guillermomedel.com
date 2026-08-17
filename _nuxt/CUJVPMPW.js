@@ -1,1 +1,0 @@
-import{c as n}from"./ZuG2UNVF.js";import{g as m,h as r}from"#entry";function o(){const e=m(),t=r(()=>["#text","#comment"].includes(e.value?.$el.nodeName)?e.value?.$el.nextElementSibling:n(e));return{primitiveElement:e,currentElement:t}}export{o as u};
