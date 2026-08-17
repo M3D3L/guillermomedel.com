@@ -1,1 +1,0 @@
-import{c as n}from"./MHTkYxSb.js";import{i as m,g as i}from"#entry";function o(){const e=m(),t=i(()=>["#text","#comment"].includes(e.value?.$el.nodeName)?e.value?.$el.nextElementSibling:n(e));return{primitiveElement:e,currentElement:t}}export{o as u};
