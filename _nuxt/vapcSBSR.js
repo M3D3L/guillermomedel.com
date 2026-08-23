@@ -1,1 +1,0 @@
-import{c as a}from"./BmKAL400.js";import{e as n,c as o,o as r,n as c,u as t}from"#entry";const u=n({__name:"Skeleton",props:{class:{}},setup(e){const s=e;return(l,m)=>(r(),o("div",{class:c(t(a)("animate-pulse rounded-md bg-primary",s.class))},null,2))}});export{u as _};
