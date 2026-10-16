@@ -1,0 +1,1 @@
+import{h as e}from"./DwpXkRCi.js";import{t}from"./Dvpwxai2.js";var n=e({useDebugStore:()=>r}),r=t(`debug`,{state:()=>({queries:[]}),actions:{addQuery(e,t){this.queries.push({query:e,result:t})},removeQueryAt(e){e>=0&&e<this.queries.length&&this.queries.splice(e,1)},clearQueries(){this.queries=[]}},persist:!0});export{r as n,n as t};
